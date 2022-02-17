@@ -1,0 +1,36 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.absoluteCss {
+    position: absolute;
+}
+
+.homeText {
+    font-size: 50px;
+}
+
+.homeNote {
+    font-size: 30px;
+}
+
+.homeAddress {
+    font-size: 20px;
+}
+
+.colorAndPadding {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.homeContainer {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://bit.ly/3gSmKQp");
+    background-size: 100%;
+}
+

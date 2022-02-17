@@ -1,0 +1,21 @@
+.navLink {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+}
+.navLink:hover {
+    border-bottom-style: solid;
+}
+.headerContainer {
+    height: 40px;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    background-color: #24252A;
+    display: flex;
+    justify-content: flex-end;
+}

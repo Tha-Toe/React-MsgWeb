@@ -1,0 +1,104 @@
+.container {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+    opacity: 0.9;
+}
+
+.msgIconImg {
+    width: 40px;
+    height: 40px;
+}
+
+.menuItem {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: inherit
+}
+.menuItem:hover {
+    border-bottom-style: solid;
+}
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+
+}
+
+.hangText {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pText {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.inputTag {
+    border-style: none;
+    background-color: #F5F5F5;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 10px;
+    outline-color: blue;
+}
+
+.buttonTag {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #0A7CFF;
+    color: #fff;
+    border-style: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 80px;
+    margin-right: 50px;
+}
+
+.blocksmall {
+    margin-bottom: 30px;
+}
+.appstoreimage {
+    width: 150px;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}

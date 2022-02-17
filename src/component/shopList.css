@@ -1,0 +1,77 @@
+.shopContainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/6242659.jpg");
+    background-size: 100%;
+}
+
+.input {
+    width: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    outline-color: lightseagreen;
+    margin-right: 10px;
+}
+
+.shopTitle {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.filterContainer {
+    margin-top: 5px;
+    width: 500px;
+    background-color: #E9D758;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.fcf {
+    display: flex;
+    flex-direction: row;
+}
+
+.filterText {
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.shopButton {
+    background-color: blue;
+    padding: 16px;
+    color: #fff;
+    border-radius: 18px;
+    border-style: 1px solid gray;
+    font-size: 20px;
+}
+
+.inputParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.deleteCss {
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.deleteCss:hover {
+    border-bottom-style: solid;
+}
