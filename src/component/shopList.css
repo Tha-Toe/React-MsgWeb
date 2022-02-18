@@ -5,7 +5,8 @@
     align-items: center;
     height: 100vh;
     background-image: url("https://wallpaperaccess.com/full/6242659.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .input {

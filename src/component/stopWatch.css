@@ -1,0 +1,78 @@
+.stopWatchContainer {
+    background-image: url("https://cdn.wallpapersafari.com/83/73/yQx4gG.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.timeTextContainer {
+    border: 1px solid #031A1C;
+    background-color: rgba(3, 26, 28, 0.7);
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+.timeTag {
+    font-size: 120px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.timeTextTag {
+    color: #1cEEf0;
+}
+.miliSec {
+    color: #1cEEf0;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.timmerButtonTag {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botn {
+    height: 100px;
+    width: 100px;
+    border: solid 5px #fff;
+    border-radius: 10px;
+    color: #1cEEf0;
+    font-size: 25px;
+    font-weight: 600;
+}
+.botn:hover{
+    border: solid 5px #fff;
+}
+
+.start {
+    background-color: rgba(3, 26, 28, 1);
+}
+.start:hover{
+    background-color: rgba(3, 26, 28, 0.9);
+}
+.stop {
+    background-color: rgba(247, 5, 5, 1);
+}
+.stop:hover {
+    background-color: rgba(247, 5, 5, 0.9);
+}
+.reset {
+    background-color: rgba(3, 26, 28, 1);
+}
+.reset:hover{
+    background-color: rgba(3, 26, 28, 0.9);
+}
+.reset:focus{
+    background-color: rgba(3, 26, 28, 0.9);
+    border: solid 5px #fff;
+}

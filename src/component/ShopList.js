@@ -37,7 +37,7 @@ function ShopList () {
             <div className="shopTitle">Food Store</div>
             <div className="inputParent">
                 <input type="text" placeholder="Enter product name" className="input" onChange={valueAdd}/>
-                <button className="shopButton" onClick={handleClick}>Buy</button>
+                <button className="shopButton" onClick={handleClick}>Order</button>
             </div>
             {list.map(product => <InputFilterForm key = {product.id} name = {product.name} id = {product.id} handleDelete = {handleDelete} />)}
         </div>

@@ -4,11 +4,12 @@ import "./../App.css"
 const Header = () => {
     const activeStyle = {background: "#0585A8"}
     return (
-        <div >
+        <div className="navBarContainer">
             <nav className="headerContainer">
                 <NavLink to = "/" className="navLink" activeStyle={activeStyle} exact>Home</NavLink>
                 <NavLink to = "/messenger" className="navLink" activeStyle={activeStyle}>Messenger</NavLink>
                 <NavLink to = "/shoplist" className="navLink" activeStyle={activeStyle}>ShopList</NavLink>
+                <NavLink to = "/StopWatch" className="navLink" activeStyle={activeStyle}>StopWatch</NavLink>
             </nav>
         </div>
     )
