@@ -1,0 +1,54 @@
+.musicContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/photos/abstract-triangles-picture-id1061123944?b=1&k=20&m=1061123944&s=170667a&w=0&h=QcabcTzWEglSiGIXh_e-v_xLj3wFCyQh6pRGJn-p2UA=");
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.musicTag {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*duration */
+.duration {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/*progressBar */
+
+.progressBar {
+    height: 5px;
+    width: 400px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.currentProgressBar {
+    height: 100%;
+    background-color: red;
+}
+
+/* controls */
+
+.controls {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #fff;
+}

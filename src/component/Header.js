@@ -10,6 +10,7 @@ const Header = () => {
                 <NavLink to = "/messenger" className="navLink" activeStyle={activeStyle}>Messenger</NavLink>
                 <NavLink to = "/shoplist" className="navLink" activeStyle={activeStyle}>ShopList</NavLink>
                 <NavLink to = "/StopWatch" className="navLink" activeStyle={activeStyle}>StopWatch</NavLink>
+                <NavLink to = "/MusicPlay" className = "navLink" activeStyle={activeStyle}>MusicPlay</NavLink>
             </nav>
         </div>
     )

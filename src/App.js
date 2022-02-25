@@ -7,6 +7,7 @@ import Home from "./component/Home"
 import Header from "./component/Header";
 import ShopList from "./component/ShopList";
 import StopWatch from "./component/StopWatch";
+import MusicPlay from "./component/MusicPlay";
 
 function App () {
 
@@ -18,6 +19,7 @@ function App () {
        <Route path = "/messenger" component = {Messenger} />
        <Route path = "/shoplist" component = {ShopList} />
        <Route path = "/stopWatch" component = {StopWatch} />
+       <Route path = "/MusicPlay" component = {MusicPlay} />
      </Switch>
    </div>
   )
