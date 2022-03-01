@@ -130,9 +130,9 @@ function MusicPlay () {
                 </div>
             </div>
             <div className="controls">
-            <FontAwesomeIcon icon={faBackwardStep} onClick = {() => skipSong(false)}/>
-            {currentPlayingIndex!==true?  <FontAwesomeIcon icon={faPlay} onClick = {() => setCurrentPlayingIndex(!currentPlayingIndex)} /> : <FontAwesomeIcon icon={faPause} onClick = {() => setCurrentPlayingIndex(!currentPlayingIndex)} />}
-            <FontAwesomeIcon icon={faForwardStep} onClick = {() => skipSong(true)}/>
+            <FontAwesomeIcon icon={faBackwardStep} onClick = {() => skipSong(false)} className="cursor"/>
+            {currentPlayingIndex!==true?  <FontAwesomeIcon icon={faPlay} onClick = {() => setCurrentPlayingIndex(!currentPlayingIndex)}  className="cursor"/> : <FontAwesomeIcon icon={faPause} onClick = {() => setCurrentPlayingIndex(!currentPlayingIndex)}  className="cursor"/>}
+            <FontAwesomeIcon icon={faForwardStep} onClick = {() => skipSong(true)}  className="cursor"/>
             </div>
         </div>
     )

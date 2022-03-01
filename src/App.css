@@ -2,9 +2,8 @@
     color: #fff;
     font-weight: 500;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     text-decoration: none;
-    border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -12,10 +11,21 @@
 }
 
 .headerContainer {
-    border-bottom: 1px solid black;
-    padding: 10px;
     background-color: #24252A;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.tabMenuContainer {
+    background-color: #24252A;
+    width: 100vw;
+}
+
+.tabMenu {
+    background-color: #85C9E9;
+    height: 5px;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
 }

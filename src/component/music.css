@@ -20,6 +20,10 @@
     user-select: none;
 }
 
+.musicTag:hover {
+    color: aqua;
+}
+
 /*duration */
 .duration {
     color: #fff;
@@ -51,4 +55,11 @@
     font-size: 30px;
     margin-top: 20px;
     color: #fff;
+}
+
+.cursor {
+    cursor: pointer;
+}
+.cursor:hover {
+    color: pink;
 }

@@ -34,3 +34,40 @@
     background-size: 100%;
 }
 
+
+.mainContainer {
+    position: relative;
+}
+
+.toastBar {
+    position: fixed;
+    bottom: -100px;
+    height: 100px;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.toastTag {
+    background-color: aqua;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+}
+
+.toastButton {
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 600;
+    border: 1px solid gray;
+}
+.toastButton:hover {
+    color: green;
+}
